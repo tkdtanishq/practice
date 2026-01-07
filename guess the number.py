@@ -24,11 +24,9 @@ for i in range(1,11):
                 print("Your guess is WRONG, Try HIGHER.\n")
             q-=1
             if q==0:
-                print(f"{name} has used all the guesses.\nPOOR PERFORMANCE :( \nThe secret number was:{r}\nGAME OVER!!")
-                print("-"*64)
+                print(f"{name} has used all the guesses.\nPOOR PERFORMANCE :( \nThe secret number was:{r}\nGAME OVER!!\n"+"-"*64)                
         elif n==r:
-            print(f"CONGRATULATIONS {name}!! YOU HAVE GUESSED THE SECRET NUMBER :D")
-            print("-"*64)
+            print(f"CONGRATULATIONS {name}!! YOU HAVE GUESSED THE SECRET NUMBER :D\n"+"-"*64)
             break
     else:
         print("--->OUT OF RANGE<---\n")
