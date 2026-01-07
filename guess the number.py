@@ -28,8 +28,7 @@ for i in range(1,11):
                 print("-"*64)
         elif n==r:
             print(f"CONGRATULATIONS {name}!! YOU HAVE GUESSED THE SECRET NUMBER :D")
-            print("-"*64
-                  )
+            print("-"*64)
             break
     else:
         print("--->OUT OF RANGE<---\n")
